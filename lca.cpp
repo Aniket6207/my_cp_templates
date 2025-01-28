@@ -1,7 +1,7 @@
 const int N=2e5+10;
 vector<ll>parent(N);
 vector<vector<ll>>children(N);
-vector<vector<ll>>up(31,vector<ll>(N));
+vector<vector<ll>>up(N,vector<ll>(31));
 vector<ll>depth(N);
 
 
